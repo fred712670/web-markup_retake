@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-color: #D0E7D2;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-indent: 0;
+  word-spacing: 0.5px;
+}
+
+h2{
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+img{
+  border-radius: 5px;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+figcaption{
+  font-size: 1rem;
+}
+
+.h1-titles{
+  font-family: Georgia, Times, serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: lighter;
+  padding: 100px 0 100px 0;
+}
+
+.title-container{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #79AC78;
+  padding: 20px 0;
+}
+
+nav a {
+  padding: 14px 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 25px;
+  margin: 0;
+  text-align: center;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-logo, .footer-logo{
+  width: 80px;
+  height: auto;
+}
+
+.nav-logo{
+  padding: 0 50px;
+
+}
+
+/*Home Page styles*/
+
+#img-homePage{
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+#callToAction-homePage{
+  font-family: Georgia, Times, serif;
+  font-weight: lighter;
+}
+
+/*Grid styles*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.grid-container > section {
+  width: fit-content;
+  text-align: left;
+  padding: 20px;
+  font-size: 22px;
+}
+
+.grid-container > section > figure > img {
+  width: 100%;
+}
+
+.info-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info-boxes > article{
+  flex-basis: 100%;
+  background-color: #B0D9B1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.info-boxes > article > img{
+  max-width: 100px;
+  height: auto;
+  margin: 20px 0;
+}
+
+/*Detail Page styles*/
+
+.center-text{
+    text-align: center;
+}
+
+.formular{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.formular > form{
+  background-color: #B0D9B1;
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.formular > form > p{
+  margin-top: 13px;
+}
+
+.formular > form > textarea{
+  width: 150px;
+  height: 80px;
+}
+
+#btn-submit, #btn-CTO{
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: #79AC78;
+  font-size: 1.5rem;
+}
+
+/*Footer styles*/
+
+.footer {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #79AC78;
+    color: black;
+    text-align: center;
+    bottom: 0;
+    padding: 50px 0;
+}
+
+.footer > p{
+    padding: 35px;
+}
+
+@media screen and (min-width: 768px){
+
+  /*Nav Bar Adjustments*/
+
+  nav{
+    position: fixed;
+    flex-direction: row;
+  }
+
+  nav li {
+    display: inline;
+  }
+
+  nav ul {
+    text-align: right;
+    padding: 25px 60px 25px 25px;
+  }
+
+  /*Font Adjustments*/
+
+  .h1-titles{
+    font-size: 36px;
+    padding: 250px 0 100px 0;
+  }
+
+  .grid-container > h1{
+    margin-bottom: 15px;
+  }
+
+  /*Grid Adjustments*/
+  
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+
+  .info-boxes > article{
+    flex-basis: calc(33% - 50px);
+  }
+  
+  /*Image Adjustments*/
+
+  .img-detailPages{
+    width: 85%;
+    height: auto; 
+  }
+
+  /*Desktop Adjustments*/
+  .formular > form > textarea{
+    width: 300px;
+    height: 200px;
+  }
+    
+  /*Footer Adjustments*/
+
+  .footer{
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-logo{
+    margin-top: 50%;
+  }
+
+  .footer-links{
+    list-style: none;
+  }
+
+  .footer > article {
+    margin: 0 10%;
+  }
+
+  p#copyright{
+    font-size: 1rem;
+  }
+ 
+}

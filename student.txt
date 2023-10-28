@@ -1,0 +1,9 @@
+Student name: Fred Ferreira Figueiredo
+
+Student number: 712670
+o
+Student class: IT1B
+o
+GitHub Repository: your github repository URL
+o
+GitHub Pages URL: your github pages URL
