@@ -4,6 +4,6 @@ Student number: 712670
 o
 Student class: IT1B
 o
-GitHub Repository: your github repository URL
+GitHub Repository: https://github.com/fred712670/web-markup/
 o
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://fred712670.github.io/web-markup/
