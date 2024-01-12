@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" >
+    <meta name="author" content="Fred Ferreira">
+    <meta name="keywords" content="WebMarkup,Eco-Haarlem,Haarlem,Ecological,HTML&CSS website">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="icon" href="img/favicon-logo.png">
     <title>WebMarkup - Project</title>
 </head>
 <body>
-    <!--Navigation bar-->
+<header>
+  <!--Navigation bar-->
     <nav>
         <a href="index.html"><img class="nav-logo" alt="logo" src="img/logo.png"></a>
         <ul>
@@ -19,7 +23,7 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
     </nav>
-
+</header>
     <!--Main-->
     <section class="title-container">
       <h1 class="h1-titles">How to arrive in Haarlem?</h1>
@@ -28,28 +32,87 @@
       <p class="center-text">Haarlem is conveniently located and easily accessible from various parts of the Netherlands and beyond:</p>
     </aside>
     <section class="info-boxes">
+        <!--Article 1-->
         <article>
-          <p>From Amsterdam</p>
+          <p><strong>From Amsterdam</strong></p>
           <img alt="train" title="train" src="img/train.png">
           <p>Haarlem is just a 15-minute train ride from Amsterdam Central Station</p>  
         </article>
+        <!--Article 2-->
         <article>
-          <p>From Schiphol Airport</p>
+          <p><strong>From Schiphol Airport</strong></p>
           <img alt="plane" title="plane" src="img/airplane.png">
           <p>If you're flying into Amsterdam's Schiphol Airport,
             you can reach Haarlem within 20 minutes by train or bus.</p>  
         </article>
+        <!--Article 3-->
         <article>
-          <p>By Car</p>
+          <p><strong>By Car</strong></p>
           <img alt="car" title="car" src="img/electric-car.png">
           <p>You can also reach Haarlem by car,
             and there are parking facilities available in and around the city.
             Consider using electric or hybrid vehicles for eco-conscious travel.</p>  
         </article>  
     </section>
-
+    <section class="tables">
+    <!--Train schedule table-->
+    <table class="train-bus-schedule" id="train">
+      <tr>
+        <th>Departs from Amsterdam Central</th>
+        <th>Arrives in Haarlem Station</th>
+      </tr>
+      <tr>
+        <td>10:41</td>
+        <td>10:50</td>
+      </tr>
+      <tr>
+        <td>10:46</td>
+        <td>10:59</td>
+      </tr>
+      <tr>
+        <td>10:55</td>
+        <td>11:05</td>
+      </tr>
+      <tr>
+        <td>11:01</td>
+        <td>11:14</td>
+      </tr>
+      <tr>
+        <td>11:10</td>
+        <td>11:20</td>
+      </tr>
+    </table>
+    <!--Bus schedule table-->
+    <table class="train-bus-schedule" id="bus">
+      <tr>
+        <th>Departs from Amsterdam Schiphol</th>
+        <th>Arrives in Haarlem Station</th>
+      </tr>
+      <tr>
+        <td>11:18</td>
+        <td>11:54</td>
+      </tr>
+      <tr>
+        <td>11:30</td>
+        <td>12:04</td>
+      </tr>
+      <tr>
+        <td>11:41</td>
+        <td>12:20</td>
+      </tr>
+      <tr>
+        <td>11:53</td>
+        <td>12:33</td>
+      </tr>
+      <tr>
+        <td>12:04</td>
+        <td>12:44</td>
+      </tr>
+    </table>
+  </section>
+  
     <!--Footer-->
-    <section class="footer">
+    <footer class="footer">
       <article>
         <img alt="logo" title="logo" class="footer-logo" src="img/logo.png">
         <p id="copyright">&copy; 2023 Ferreira Fred</p>
@@ -65,6 +128,6 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       </article>
-  </section>
+  </footer>
 </body>
 </html>

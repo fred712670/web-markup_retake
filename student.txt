@@ -4,6 +4,6 @@ Student number: 712670
 o
 Student class: IT1B
 o
-GitHub Repository: https://github.com/fred712670/web-markup/
+GitHub Repository: https://github.com/fred712670/web-markup_retake/
 o
-GitHub Pages URL: https://fred712670.github.io/web-markup/
+GitHub Pages URL: https://fred712670.github.io/web-markup_retake/
